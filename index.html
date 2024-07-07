@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DVDリスト</title>
+  <link rel="stylesheet" href="./css/index_base.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/bootstrap.js"></script>
+</head>
+
+<body>
+
+  <body>
+    <div class="container">
+      <h1>DVDリスト</h1>
+      <p>購入したいDVDをカートにドラッグ＆ドロップしてください。
+        <button id="clear_button" class="btn btn-danger">カート クリア</button>
+      </p>
+      <div class="mainzone">
+        <div id="listzone">Now On Sale<div class="row">
+
+            <div class="col-6 p-0 m-0">
+              <div  class="dvdcard text-wrap size_test2 p-0 m-1" draggable="true">インディ・ジョーンズと運命のダイヤル
+                <div class="card-body" draggable="false">
+                  <describe class="describeshow">“伝説の男”が運命を変える究極の秘宝争奪戦に挑む。</describe class="describeshow">
+                  <img class="img-fluid" draggable="false" src="https://imagebox204e-masatokg.netlify.app/dvd-label/sm_indiana.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 p-0 m-0">
+              <div class="dvdcard text-wrap size_test2 p-0 m-1" draggable="true">インター・ステラー
+                <div class="card-body" draggable="false">
+                  <describe class="describeshow">人類の滅亡が迫る近未来を舞台に、家族や人類の未来を守るため、未知の宇宙へと旅立っていく元エンジニアの男の姿を描く。</describe class="describeshow">
+                  <img class="img-fluid" draggable="false" src="https://imagebox204e-masatokg.netlify.app/dvd-label/sm_inter.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 p-0 m-0">
+              <div class="dvdcard text-wrap size_test2 p-0 m-1" draggable="true">ミッション:インポッシブル/デッドレコニング PART ONE
+                <div class="card-body" draggable="false">
+                  <describe class="describeshow">トム・クルーズ　全世界待望のM:I最新作。すべてが今、繋がっていく。</describe class="describeshow">
+                  <img class="img-fluid" draggable="false" src="https://imagebox204e-masatokg.netlify.app/dvd-label/sm_mission.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 p-0 m-0">
+              <div class="dvdcard text-wrap size_test2 p-0 m-1" draggable="true">トップガン マーヴェリック
+                <div class="card-body" draggable="false">
+                  <describe class="describeshow">あの男が帰ってきた――青春映画の金字塔『トップガン』、前作を凌ぐ迫真の飛行シーンが現実のものに。</describe class="describeshow">
+                  <img class="img-fluid" draggable="false" src="https://imagebox204e-masatokg.netlify.app/dvd-label/sm_top.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 p-0 m-0">
+              <div class="dvdcard text-wrap size_test2 p-0 m-1" draggable="true">トランスフォーマー/ビースト覚醒
+                <div class="card-body" draggable="false">
+                  <describe class="describeshow">『トランスフォーマー』シリーズ新章開幕！ ビーストと共に地球消滅の運命を変えろ</describe class="describeshow">
+                  <img class="img-fluid" draggable="false" src="https://imagebox204e-masatokg.netlify.app/dvd-label/sm_trans.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 p-0 m-0">
+              <div class="dvdcard text-wrap size_test2 p-0 m-1" draggable="true">トゥルー・ライズ
+                <div class="card-body" draggable="false">
+                  <describe class="describeshow">製作30周年を記念して、ファン待望の初4K Ultra HD化&初ブルーレイ化！
+                    ド迫力のスーパーエンタテイメント超大作が4K Ultra HDで甦る！ </describe class="describeshow">
+                  <img class="img-fluid" draggable="false" src="https://imagebox204e-masatokg.netlify.app/dvd-label/sm_true.png" alt="">
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <div id="dropzone" class="img-fluid">カート
+          <div id="droprow" class="row"></div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
